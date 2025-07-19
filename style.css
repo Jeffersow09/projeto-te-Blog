@@ -1,0 +1,38 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-menu {
+    background-color: rgb(212, 212, 9);
+    text-align: center;
+    padding: 15px;
+    height: 7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+
+    span {
+        color: white;
+    }
+}
+
+.header-menu .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.header-menu .menu a,
+.header-menu .menu li {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
