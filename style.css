@@ -1,5 +1,6 @@
+/*Limpar Formatação*/
 * {
-    margin:  0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -35,4 +36,37 @@ h1 {
     color: black;
     font-weight: bold;
     font-size: 18px;
+}
+
+a:hover {
+    background-color: #fff;
+    padding: 8px 12px;
+}
+
+/*Area Principal*/
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagem, #area-lateral {
+    background-color: orange;
+}
+
+#area-postagem {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
 }
